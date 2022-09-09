@@ -4,10 +4,10 @@ import argparse
 import pyrebase
 
 config = {
-    "apiKey": "AIzaSyBSr6P73_gJaa3v-TjnTXNbey-bRzSn5bc",
-    "authDomain": "carparking-fa9aa.firebaseapp.com",
-    "databaseURL": "https://carparking-fa9aa.firebaseio.com",
-    "storageBucket": "carparking-fa9aa.appspot.com"
+    "apiKey": "<API KEY>",                               # Code obfuscated 
+    "authDomain": "caxxxx-fxxxx.firebaseapp.com",        # Code obfuscated 
+    "databaseURL": "https://<DIR NAME>.firebaseio.com",  # Code obfuscated 
+    "storageBucket": "caxxxx-fxxxx.appspot.com"          # Code obfuscated 
 }
 
 firebase = pyrebase.initialize_app(config)
